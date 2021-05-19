@@ -84,3 +84,8 @@ button:hover{
     background: linear-gradient(to left,var(--Lime-Green), var(--Bright-Cyan));
     opacity: .6;
 }
+
+
+.close{
+    display: none;
+}
