@@ -1,0 +1,218 @@
+@import url("./global.css");
+
+@media (min-width: 512px) {
+  .offer .heading h2,
+  .offer .heading p,
+  .offer-wrapper,
+  .offer-wrapper p {
+    text-align: left !important;
+  }
+
+  .offer .heading p {
+    padding: 1rem 0rem !important;
+    padding-right: 40% !important;
+  }
+
+  .offer-wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 1rem !important;
+  }
+
+  .offer-card p {
+    padding: 1rem 0rem !important;
+  }
+
+  .articles h2 {
+    text-align: left !important;
+  }
+
+  .article-wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+    grid-gap: 1rem !important;
+    margin-top: 2rem !important;
+  }
+
+  .article-card:first-child {
+    margin-top: 0rem !important;
+  }
+
+  .footer-wrapper {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (min-width: 630px) {
+  .main-wrapper {
+    display: flex !important;
+    justify-content: space-around !important;
+    align-items: center !important;
+    flex-flow: row-reverse !important;
+    grid-gap: 0rem !important;
+  }
+
+  .image {
+    flex: 1 0 60% !important;
+  }
+
+  .heading-wrapper {
+    flex: 1 0 40% !important;
+    transform: translateY(20%) !important;
+    padding: 0rem 0rem !important;
+    text-align: left !important;
+  }
+
+  .heading-wrapper h1 {
+    padding-top: 3rem !important;
+  }
+
+  .heading-wrapper p {
+    padding: 1rem 0rem !important;
+    text-align: left !important;
+  }
+
+  .intro-mobile {
+    display: none !important;
+  }
+  .intro-desk {
+    position: relative !important;
+    display: block !important;
+    top: 5px !important;
+    right: -45% !important;
+    transform: scale(1.8) !important;
+  }
+  .mobile {
+    position: absolute !important;
+    top: -50px !important;
+    left: 70px !important;
+    right: 0px !important;
+    transform: scale(1) !important;
+  }
+
+  section.main {
+    padding-bottom: 2rem !important;
+  }
+}
+
+@media (min-width: 800px) {
+  .hamburger {
+    display: none !important;
+  }
+  .navlist {
+    display: block !important;
+    left: 0px !important;
+    width: auto !important;
+    top: 0rem !important;
+    z-index: 0 !important;
+    position: relative !important;
+    display: flex !important;
+    align-items: center !important;
+    background-color: var(--White) !important;
+  }
+  .navlist li {
+    margin: 0rem 0rem !important;
+  }
+
+  .nav-wrapper button {
+    display: block !important;
+  }
+
+  .navlist li a {
+    color: var(--Grayish-Blue) !important;
+    margin-left: 1.5rem !important;
+  }
+
+  .offer-wrapper {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .article-wrapper {
+    grid-template-columns: repeat(3, 1fr) !important;
+  }
+
+  .footer-wrapper {
+    grid-template-columns: repeat(3, 1fr) !important;
+    align-items: center !important;
+  }
+  .footer-content {
+    grid-template-columns: repeat(2, 1fr) !important;
+    padding: 0rem !important;
+  }
+  .footer-content,
+  .footer-icons {
+    text-align: left !important;
+  }
+  .footer-last {
+    text-align: right !important;
+  }
+  .icons {
+    margin-top: 2rem !important;
+  }
+
+  .intro-desk {
+    position: relative !important;
+    display: block !important;
+    top: 48px !important;
+    right: -40% !important;
+    transform: scale(1.6) !important;
+  }
+  .mobile {
+    position: absolute !important;
+    top: 0px !important;
+    left: 100px !important;
+    right: 0px !important;
+    transform: scale(1.1) !important;
+  }
+
+  .heading-wrapper {
+    transform: translateY(35%) !important;
+  }
+
+  section.main {
+    padding-bottom: 5rem !important;
+  }
+}
+
+@media (min-width: 991px) {
+  .offer-wrapper {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+
+  .article-wrapper {
+    grid-template-columns: repeat(4, 1fr) !important;
+  }
+  .offer .heading p {
+    padding-right: 45% !important;
+  }
+  .mobile{
+    transform: scale(.9) !important;
+  }
+}
+
+@media (min-width: 1152px) {
+  .intro-desk {
+    top: 25px !important;
+    right: -38% !important;
+    transform: scale(1.5) !important;
+  }
+  .mobile {
+    position: absolute !important;
+    top: 0px !important;
+    left: 185px !important;
+    right: 0px !important;
+  }
+
+  .heading-wrapper {
+    transform: translateY(35%) !important;
+  }
+
+  section.main {
+    padding-bottom: 5rem !important;
+  }
+}
+
+@media(min-width: 1200px){
+    .mobile{
+        transform: scale(.8) !important;
+        left: 340px!important;
+    }
+}
